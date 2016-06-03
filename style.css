@@ -1,0 +1,257 @@
+html {
+    font-size: 62.5%;
+}
+
+h1, h2, h3, h4, p, table, li, ul, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+}
+
+.page-header {
+	text-align: center;
+}
+
+.close-button {
+	float: right;
+    border: none;
+    background: none;
+}
+
+.close-button-image {
+	width: 30px;
+}
+
+.profile-photo {
+	border-radius: 50%;
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 21px;
+}
+
+.profile-name {
+	color: #0266b3;
+}
+
+.profile-informations {
+	margin-top: 12px;
+}
+
+.profile-information-header {
+	display: none;
+}
+
+.caps-header {
+	margin: 20px 60px 0px 60px;
+    font-variant: small-caps;
+    font-size: 1.9rem;
+    color: #838b93;
+}
+
+.caps-header-small {
+    margin: 20px 45px 0px 45px;
+    font-variant: small-caps;
+    font-size: 1.6rem;
+    color: #838b93;
+}
+
+hr {
+    margin: 10px;
+}
+
+.how-it-started-section {
+	text-align: center;
+    margin-top: 20px;
+}
+
+.rectangles {
+    width: 280px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 29px;
+}
+
+.transform-div-1 {
+    opacity: 0.5;
+/*    margin-top: 50px;*/
+    width: 100px;
+    height: 100px;
+    background-color: #bde8fd;
+    -ms-transform: rotate(50deg); /* IE 9 */
+    -webkit-transform: rotate(50deg); /* Safari */
+    transform: rotate(50deg);
+    display: inline-block
+}
+
+.transform-text-1 {
+	transform: rotate(-50deg);
+    font-size: 1.5rem;
+    padding-top: 15px;
+    padding-right: 20px;
+    text-align: center;
+        
+}
+
+.transform-div-2 {
+    opacity: 0.5;
+/*    margin-top: 50px;*/
+    margin-left: 17px;
+    width: 100px;
+    height: 100px;
+    background-color: #bde8fd;
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg);
+    display: inline-block
+}
+
+.transform-text-2 {
+	transform: rotate(10deg);
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+        
+}
+
+.transform-div-3 {
+    opacity: 0.5;
+    width: 100px;
+    height: 100px;
+    background-color: #bde8fd;
+    -ms-transform: rotate(55deg); /* IE 9 */
+    -webkit-transform: rotate(55deg); /* Safari */
+    transform: rotate(55deg);
+    display: inline-block
+}
+
+.transform-text-3 {
+	transform: rotate(-55deg);
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-right: 10px;
+    text-align: center;
+        
+}
+
+.transform-div-4 {
+    opacity: 0.5;
+    margin-left: 14px;
+    width: 100px;
+    height: 100px;
+    background-color: #bde8fd;
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Safari */
+    transform: rotate(10deg);
+    display: inline-block
+}
+
+.transform-text-4 {
+	transform: rotate(-10deg);
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-right: 10px;
+    text-align: center;
+        
+}
+
+span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.joined-section {
+    text-align: center;
+}
+
+.forms {
+	width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.joined-form {
+	display: inline-block;
+    margin-left: 10px;
+}
+
+.joined-form:first-child {
+	margin-left: 0px;
+}
+
+.background-photo {
+	background: repeating-linear-gradient(
+        45deg,   
+        white,
+        white 2px,
+        #eeeeee 2px,
+        #eeeeee 4px
+    );
+    height: 90px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.photo-joined {
+	padding: 20px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.photo-circle {
+    padding: 15px;
+    border-radius: 50%;
+    height: 60px;
+}
+
+.hottest-discussion-section {
+	text-align: center;
+     
+}
+
+.hottest-discussion-informations {
+	width: 100%;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 75px;
+}
+
+.hottest-info {
+	width: 40%;
+    display: inline-block;
+    font-style: oblique;
+    font-size: 1.4rem;
+}
+
+.hottest-topic {
+	color: #0266b3;
+    font-style: oblique;
+}
+
+.span-blue {
+	color: #0266b3;
+    font-size: 1.4rem;
+    font-variant: normal;
+}
+
+.discussion-background {
+   background: repeating-linear-gradient(
+        45deg,   
+        white,
+        white 2px,
+        #eeeeee 2px,
+        #eeeeee 4px
+    );
+    width: 100%;
+    position: absolute;
+    background-position: bottom;
+/*    margin-top: 100px;*/
+    
+}
