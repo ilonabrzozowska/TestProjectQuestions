@@ -60,6 +60,10 @@ body {
     color: #838b93;
 }
 
+.activity-photo {
+	width: 30px;
+}
+
 hr {
     margin: 10px;
 }
@@ -67,6 +71,11 @@ hr {
 .how-it-started-section {
 	text-align: center;
     margin-top: 20px;
+}
+
+.how-it-started-header {
+	font-size: 3.5rem;
+    font-style: oblique;
 }
 
 .rectangles {
@@ -78,7 +87,6 @@ hr {
 
 .transform-div-1 {
     opacity: 0.5;
-/*    margin-top: 50px;*/
     width: 100px;
     height: 100px;
     background-color: #bde8fd;
@@ -92,7 +100,7 @@ hr {
 	transform: rotate(-50deg);
     font-size: 1.5rem;
     padding-top: 15px;
-    padding-right: 20px;
+    padding-right: 25px;
     text-align: center;
         
 }
@@ -134,7 +142,7 @@ hr {
 	transform: rotate(-55deg);
     font-size: 1.5rem;
     padding-top: 20px;
-    padding-right: 10px;
+    padding-right: 25px;
     text-align: center;
         
 }
@@ -155,7 +163,7 @@ hr {
 	transform: rotate(-10deg);
     font-size: 1.5rem;
     padding-top: 20px;
-    padding-right: 10px;
+/*    padding-right: 10px;*/
     text-align: center;
         
 }
@@ -209,6 +217,8 @@ span {
     padding: 15px;
     border-radius: 50%;
     height: 60px;
+    display: block;
+    margin: 0 auto;
 }
 
 .hottest-discussion-section {
@@ -251,7 +261,54 @@ span {
     );
     width: 100%;
     position: absolute;
-    background-position: bottom;
-/*    margin-top: 100px;*/
+    background-position: bottom;    
+}
+
+
+@media screen and (min-width: 40em) {
+
+    .profile-photo {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        width: 90px;
+    }
     
+    .caps-header {
+	   display: inline-block;
+        margin: 45px 5px 0px 0px;
+        font-size: 1.9rem;
+    }
+    
+    .description {
+        display: inline-block;
+        font-size: 1.5rem;
+        margin-right: 20px;
+    }
+    
+    hr {
+        margin: 36px;
+    }
+    
+    .how-it-started-header {
+	   font-size: 4.5rem;
+    }
+    
+    .profile-informations {
+	   margin-top: 0;
+    }
+    
+    .rectangles {
+        width: 470px;
+    }
+    
+    .transform-div-3 {
+        margin-left: 20px;
+    }
+    .transform-div-4 {
+        margin-left: 20px;
+    }
+    
+    .hottest-info {
+        width: 20%;
+    }
 }
