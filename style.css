@@ -213,6 +213,7 @@ span {
     height: 50px;
 }
 
+
 .photo-circle {
     padding: 15px;
     border-radius: 50%;
@@ -234,7 +235,7 @@ span {
 }
 
 .hottest-info {
-	width: 40%;
+	width: 45%;
     display: inline-block;
     font-style: oblique;
     font-size: 1.4rem;
@@ -262,6 +263,124 @@ span {
     width: 100%;
     position: absolute;
     background-position: bottom;    
+}
+
+.page-header .caps-header {
+    font-size: 4rem;
+    color: black;
+	margin: 0;
+}
+
+.question {
+    text-align: left;
+    background: #dff3fd;
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
+    box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
+    margin-top: 20px;
+}
+
+
+.question .photo-circle {
+    display: inline-block;
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+}
+
+.question .caps-header-small {
+    display: inline-block;
+/*    height: 100px;*/
+    margin: 0;
+    transform: translateY(190%);
+    position: absolute;
+}
+
+.question-title {
+	font-style: oblique;
+    color: #0266b3;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.question-text {
+	background: white;
+    margin-top: 12px;
+    padding: 11px;
+    color: #8f8b93;
+}
+
+hr.hr-white {
+    border: 1px solid white;
+    margin: 0 0 10px 0;
+    
+}
+
+.hr-black {
+    margin: 10px 0 0 0;
+    opacity: 0.5;
+}
+
+.follow-button {
+	background: 0;
+    border: 0;
+    font-weight: bold;
+    float: left;
+    padding-left: 11px;
+    display: inline-block;
+    transform: translateY(100%);
+}
+
+.votes-count {
+	font-size: 1.4rem;
+/*    float: right;*/
+/*    padding-right: 30px;*/
+    display: inline-block;
+    transform: translateY(110%);
+    padding-left: 90px;
+}
+
+.votes-buttons {
+	width: 30px;
+    display: inline-block;
+    float: right;
+    padding-right: 11px;
+}
+
+.vote-up {
+	background: url(img/up.png) center;
+    background-size: 25px 25px;
+    height: 25px;
+    width: 25px;
+    border: 0;
+}
+
+.vote-down {
+    background: url(img/down.png) center;
+    background-size: 25px 25px;
+    height: 25px;
+    width: 25px;
+    border: 0;
+}
+
+.answers-section {
+    margin: 0 auto;
+    padding-top: 60px;
+    width: 200px;
+    text-align: center;
+}
+
+.answer-button {
+    background: 0;
+    border: 1px solid gray;
+    padding: 8px 34px 8px 34px;
+    font-size: 1.5rem;
+}
+
+.answers-section .caps-header {
+    margin: 0;
+    color: black;
+    font-size: 2rem;
 }
 
 
