@@ -328,16 +328,16 @@ hr.hr-white {
     float: left;
     padding-left: 11px;
     display: inline-block;
-    transform: translateY(100%);
+    top: 20px;
+    position: relative;
 }
 
 .votes-count {
 	font-size: 1.4rem;
-/*    float: right;*/
-/*    padding-right: 30px;*/
     display: inline-block;
-    transform: translateY(110%);
     padding-left: 90px;
+    top: 20px;
+    position: relative;
 }
 
 .votes-buttons {
@@ -364,16 +364,27 @@ hr.hr-white {
 }
 
 .answers-section {
-    margin: 0 auto;
-    padding-top: 60px;
-    width: 200px;
+	margin-top: 80px;
+    background: #fbfbfb;
+    width: 100%;
     text-align: center;
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
+    box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
+}
+
+.answers-section .hr-black {
+    margin: 0;
 }
 
 .answer-button {
-    background: 0;
+	margin: 0 auto;
+    width: 180px;
+    padding: 8px 30px 8px 30px;
+    background: white;
     border: 1px solid gray;
-    padding: 8px 34px 8px 34px;
+    position: relative;
+    top: -24px;
     font-size: 1.5rem;
 }
 
