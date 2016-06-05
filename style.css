@@ -11,6 +11,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 1.4rem;
+    line-height: 1.8rem;
 }
 
 .page-header-profile {
@@ -527,7 +528,7 @@ hr.hr-white {
     -webkit-box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
     -moz-box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
     box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
-
+    margin-top: 60px;
 }
 
 .comment-button {
@@ -554,7 +555,10 @@ hr.hr-white {
 
 @media screen and (min-width: 40em) {
 
-    
+    body {
+        line-height: 2rem;
+        font-size: 1.6rem;
+    }
     
     .profile-photo {
         margin-top: 50px;
@@ -602,11 +606,6 @@ hr.hr-white {
         width: 20%;
     }
     
-    
-    .question {
-        padding-top: -40px;
-}
-    
     .question .photo-circle {
         padding: 15px 0px 10px 20px;
     }
@@ -621,7 +620,7 @@ hr.hr-white {
         margin-left: 90px;
         padding-right: 140px;
         padding-bottom: 50px;
-        font-size: 1.5rem;
+/*        font-size: 1.5rem;*/
     }
     
     .question .hr-white {
@@ -648,12 +647,12 @@ hr.hr-white {
     .question-meta .votes-area {
         text-align: right;
         position: relative;
-        top: -145px;  
+        top: -155px;  
     }
     
     .question-meta .follow-button {
         position: relative;
-        top: -200px;
+        top: -210px;
         float: none;
         padding-right: 38px;
         font-size: 1.5rem;
@@ -686,7 +685,7 @@ hr.hr-white {
     .comment-text {
         position: relative;
         left: 75px;
-        bottom: 40px;
+        bottom: 50px;
         width: 400px;
         color: #586d71;
         font-size: 1.6rem;
@@ -708,7 +707,7 @@ hr.hr-white {
     .comment-section .votes-area {
 	
         position: relative;
-        top: -110px;
+        top: -120px;
 }
     
         .comment-section-2 .votes-area {
@@ -718,20 +717,74 @@ hr.hr-white {
 }
     
     .comment-content {
-        height: 50px;
+        height: 0px;
+        margin-bottom: 20px;
 }
     
     .comment-section-2 {
         margin-left: 80px;
+        padding-bottom: 20px;
     }
     
     .sub-comment {
         background: #fbfbfb;
-}
+    }
     
 }
 
 
 
+@media screen and (min-width: 50em) {
 
+    body {
+        line-height: 2.2rem;
+        font-size: 1.6rem;
+    }
+    
+    .page-header-question {
+	   max-width: 800px;
+        margin: 0 auto;
+        padding-top: 30px;
+        
+}
+    .page-header-question .caps-header {
+	   padding: 0;
+	
+}
+    
+    .question {
+	   max-width: 800px;
+        margin: 0 auto;
+        margin-top: 30px;
+        
+}
+    .question-meta {
+	max-width: 800px;
+        margin: 0 auto;
+}
+    .answers-section {
+	max-width: 800px;
+                margin: 0 auto;
+
+}
+    .comment-section {
+	max-width: 800px;
+                margin: 0 auto;
+
+}
+    .sub-comment {
+	max-width: 800px;
+                margin: 0 auto;
+
+}
+    .comment-button-section {
+	max-width: 800px;
+                margin: 0 auto;
+position: relative;
+        top: 40px;
+}
+    
+    
+    
+}
 
