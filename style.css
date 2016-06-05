@@ -299,9 +299,6 @@ span {
 
 .question .caps-header-small {
     display: inline-block;
-/*    height: 100px;*/
-/*    margin: 0;*/
-/*    transform: translateY(190%);*/
     position: relative;
     left: -20px;
     top: -20px;
@@ -324,7 +321,6 @@ span {
 hr.hr-white {
     border: 1px solid white;
     margin: 0 0 10px 0;
-    
 }
 
 .hr-black {
@@ -386,7 +382,6 @@ hr.hr-white {
 .answers-section {
 	margin-top: 80px;
     padding-bottom: 50px;
-    background: #fbfbfb;
     width: 100%;
     text-align: center;
     -webkit-box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
@@ -437,10 +432,11 @@ hr.hr-white {
 }
 
 .comment-section {
-/*    margin-bottom: 50px;*/
     -webkit-box-shadow: 0px -5px 6px 0px rgba(50, 50, 50, 0.2);
     -moz-box-shadow:    0px -5px 6px 0px rgba(50, 50, 50, 0.2);
     box-shadow:         0px -5px 6px 0px rgba(50, 50, 50, 0.2);
+    background: white;
+    padding-bottom: 40px;
 }
 
 .comment-header .photo-circle {
@@ -528,7 +524,6 @@ hr.hr-white {
     -webkit-box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
     -moz-box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
     box-shadow: inset 0px 1px 1px 0px rgba(168,166,168,0.44);
-    margin-top: 60px;
 }
 
 .comment-button {
@@ -549,15 +544,12 @@ hr.hr-white {
 }
 
 
-
-
-
-
 @media screen and (min-width: 40em) {
 
     body {
         line-height: 2rem;
         font-size: 1.6rem;
+        background: #fbfbfb;
     }
     
     .profile-photo {
@@ -567,7 +559,7 @@ hr.hr-white {
     }
     
     .caps-header {
-	   display: inline-block;
+        display: inline-block;
         margin: 45px 5px 0px 0px;
         font-size: 1.9rem;
     }
@@ -620,7 +612,6 @@ hr.hr-white {
         margin-left: 90px;
         padding-right: 140px;
         padding-bottom: 50px;
-/*        font-size: 1.5rem;*/
     }
     
     .question .hr-white {
@@ -642,7 +633,7 @@ hr.hr-white {
     .question-meta {
         text-align: right;
         height: 0px;
-}
+    }
     
     .question-meta .votes-area {
         text-align: right;
@@ -665,22 +656,21 @@ hr.hr-white {
     
     .answer-button {
         top: -10px;
-}
+    }
     
     .answers-count {
         width: 205px;
         padding-top: 100px;
         font-size: 1.6rem;
-}
+    }
     
     .comment-header .hr-gray {
         display: none;
 	
-}
+    }
     .comment-header .caps-header-small {
         bottom: 50px;
-	
-}
+    }
     
     .comment-text {
         position: relative;
@@ -689,37 +679,34 @@ hr.hr-white {
         width: 400px;
         color: #586d71;
         font-size: 1.6rem;
-/*        padding: 0;*/
-}
+    }
     
     .comment-section-2 .comment-text {
         width: 340px;
-	
-}
+    }
     
     .comment-section .photo-circle {
         height: 50px;
-}
+    }
+    
     .comment-section-2 .photo-circle {
         height: 50px;
-}
+    }
     
     .comment-section .votes-area {
-	
         position: relative;
         top: -120px;
-}
+    }
     
-        .comment-section-2 .votes-area {
-	
+    .comment-section-2 .votes-area {
         position: relative;
         top: -110px;
-}
+    }
     
     .comment-content {
         height: 0px;
         margin-bottom: 20px;
-}
+    }
     
     .comment-section-2 {
         margin-left: 80px;
@@ -739,50 +726,49 @@ hr.hr-white {
     body {
         line-height: 2.2rem;
         font-size: 1.6rem;
+
     }
     
     .page-header-question {
-	   max-width: 800px;
+        max-width: 800px;
         margin: 0 auto;
-        padding-top: 30px;
-        
-}
+        padding-top: 30px;        
+    }
+    
     .page-header-question .caps-header {
-	   padding: 0;
-	
-}
+        padding: 0;	
+    }
     
     .question {
-	   max-width: 800px;
+        max-width: 800px;
         margin: 0 auto;
-        margin-top: 30px;
-        
-}
+        margin-top: 30px;       
+    }
+    
     .question-meta {
-	max-width: 800px;
+        max-width: 800px;
         margin: 0 auto;
-}
+    }
+    
     .answers-section {
-	max-width: 800px;
-                margin: 0 auto;
-
-}
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
     .comment-section {
-	max-width: 800px;
-                margin: 0 auto;
-
-}
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
     .sub-comment {
-	max-width: 800px;
-                margin: 0 auto;
-
-}
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
     .comment-button-section {
-	max-width: 800px;
-                margin: 0 auto;
-position: relative;
-        top: 40px;
-}
+        max-width: 800px;
+        margin: 0 auto;
+    }
     
     
     
