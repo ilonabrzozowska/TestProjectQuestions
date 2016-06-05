@@ -53,9 +53,9 @@ body {
 }
 
 .caps-header {
-	margin: 20px 60px 0px 60px;
+	margin: 20px 50px 0px 50px;
     font-variant: small-caps;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     color: #838b93;
 }
 
@@ -84,7 +84,7 @@ hr {
 }
 
 .how-it-started-header {
-	font-size: 3.5rem;
+	font-size: 2.7rem;
     font-style: oblique;
 }
 
@@ -248,6 +248,8 @@ span {
 .hottest-topic {
 	color: #0266b3;
     font-style: oblique;
+    font-size: 1.8rem;
+    margin-top: 10px;
 }
 
 .span-blue {
@@ -438,11 +440,8 @@ hr.hr-white {
 	   margin-left: 20px;
     }
     
-    .transform-div-3 {
-        margin-left: 20px;
-    }
-    .transform-div-4 {
-        margin-left: 20px;
+    .hottest-topic {
+	   font-size: 2rem;
     }
     
     .hottest-info {
