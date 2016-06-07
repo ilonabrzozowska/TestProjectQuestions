@@ -20,7 +20,6 @@ body {
 }
 
 .page-header-question {
-/*	text-align: center;*/
     margin-top: 21px;
 }
 
@@ -145,8 +144,8 @@ hr {
     width: 100px;
     height: 100px;
     background-color: #bde8fd;
-    -ms-transform: rotate(-10deg); /* IE 9 */
-    -webkit-transform: rotate(-10deg); /* Safari */
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
 }
 
@@ -421,12 +420,12 @@ hr.hr-white {
 
 .number {
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 
 .span-oblique {
 	font-style: oblique;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #6d4b51;
     font-variant: normal;
 }
@@ -543,6 +542,113 @@ hr.hr-white {
     font-size: 2rem;
 }
 
+.question-story-section .question {
+    height: 100px;
+}
+
+.question-story-section .question .caps-header-small {
+    position: relative;
+    left: -32px;
+    top: -50px;
+	
+}
+
+.question-story-section .question-title {
+        margin-left: 85px;
+        text-align: left;
+    position: relative;
+    top: -40px;
+}
+
+.question-story-section .photo-circle {
+    height: 50px;
+    }
+
+.question-info-block {
+	display: inline-block;
+}
+
+.gray-block {
+	width: 77px;
+    height: 132px;
+    background: #eeeeee;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    float: left;
+    
+}
+
+.gray-block .hr-black {
+    border: 1px solid black;
+	margin: 20px 10px 2px 10px;
+    opacity: 1;
+}
+
+.gray-block .span-oblique {
+    position: relative;
+    top: 90px;
+    left: 10px;
+}
+
+.gray-block .number {
+    position: relative;
+	top: 30px;
+    left: 35px;
+}
+
+.gray-block .caps-header-small {
+	color: black;
+    margin: 10px;
+}
+
+.question-story-info {
+    position: absolute;
+    padding-left: 25px;
+    display: inline-block;
+    height: 130px;
+}
+
+.question-story-info .span-oblique {
+    display: block;
+    height: 30%;
+}
+
+.question-story-info .span-oblique:first-child {
+    padding-top: 20px;
+	
+}
+
+.question-story-info .number {
+    padding-right: 5px;
+	
+}
+
+.circle-gray {
+	border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: gray;
+    position: relative;
+    top: 90px;
+    left: 33px;
+}
+
+.circle-black {
+	border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: black;
+    position: relative;
+    top: 5px;
+    left: 33px;
+}
+
+
+
+
+
+
+
 
 @media screen and (min-width: 40em) {
 
@@ -655,7 +761,7 @@ hr.hr-white {
     }
     
     .answer-button {
-        top: -10px;
+        top: -20px;
     }
     
     .answers-count {
