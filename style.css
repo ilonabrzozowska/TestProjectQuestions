@@ -2,7 +2,7 @@ html {
     font-size: 62.5%;
 }
 
-h1, h2, h3, h4, p, table, li, ul, img {
+h1, h2, h3, h4, p, table, li, ul, img, section, div {
     margin: 0;
     padding: 0;
 }
@@ -543,12 +543,12 @@ hr.hr-white {
 }
 
 .question-story-section .question {
-    height: 100px;
+    height: 93px;
 }
 
 .question-story-section .question .caps-header-small {
     position: relative;
-    left: -32px;
+    left: -34px;
     top: -50px;
 	
 }
@@ -575,8 +575,9 @@ hr.hr-white {
     border-top: 1px solid white;
     border-right: 1px solid white;
     float: left;
-    
 }
+
+
 
 .gray-block .hr-black {
     border: 1px solid black;
@@ -598,7 +599,8 @@ hr.hr-white {
 
 .gray-block .caps-header-small {
 	color: black;
-    margin: 10px;
+/*    margin: 10px;*/
+    padding-top: 30px;
 }
 
 .question-story-info {
@@ -627,7 +629,7 @@ hr.hr-white {
 	border-radius: 50%;
     width: 10px;
     height: 10px;
-    background: gray;
+    background: #a7a9ac;
     position: relative;
     top: 90px;
     left: 33px;
@@ -639,15 +641,22 @@ hr.hr-white {
     height: 10px;
     background: black;
     position: relative;
-    top: 5px;
-    left: 33px;
+    top: -40px;
+    left: 32px;
 }
+    
+    .asked.caps-header-small {
+        display: none;
+    }
 
+    .asked.circle-gray {
+        top: 190px;
+        display: none;
+    }
 
-
-
-
-
+   .question .hr-gray {
+        display: none;
+}
 
 
 @media screen and (min-width: 40em) {
@@ -705,7 +714,8 @@ hr.hr-white {
     }
     
     .question .photo-circle {
-        padding: 15px 0px 10px 20px;
+/*        padding: 15px 0px 10px 20px;*/
+        padding: 15px 20px;
     }
     
     .question-title {
@@ -822,8 +832,66 @@ hr.hr-white {
     .sub-comment {
         background: #fbfbfb;
     }
+
+    .gray-block {
+        width: 90px;
+        height: 155px;
+    }
+    
+    .gray-block:first-child {
+        background: white;
+    }
+
+    .question-story-section .question {
+        height: 323px;
+    }
+    
+    .question-info-block {
+        margin-left: 90px;
+        background: white;
+        width: 100%;
+        max-width: 680px;
+        padding: 30px 10px 0 20px;
+    }
+
+    .circle-black {
+        top: -30px;
+        left: 40px;
+}
+    
+    .circle-gray {
+        top: 110px;
+        left: 35px;
+}
+    
+    .question-story-info {
+        height: 170px;
+}
+    
+    .question .asked.caps-header-small {
+        display: inline;
+        position: relative;
+        top: 180px;
+        left: -20px;
+    }
+    
+    .span-oblique {
+        font-size: 1.5rem;
+}
+    
+    .question .hr-gray {
+        display: block;
+        margin: 0 10px;
+        position: relative;
+        top: 170px;
+        width: 70px;
+}
+        .asked.circle-gray {
+            display: block;
+    }
     
 }
+
 
 
 
