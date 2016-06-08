@@ -6,11 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="style.css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     </head>
     <body>
         <header class="page-header">
-            <a href="profile.html">Profile</a>
-            <a href="question.html">Single question</a>
         </header>
         
         <section class="question-story-section">
@@ -18,7 +17,7 @@
             <section class="question">
                 <img src="img/woman1.jpg" class="photo-circle"> 
                 <span class="caps-header-small"><span class="span-blue">Eva</span> is asking: </span>
-                <h2 class="question-title">Will insulin make my patient gain weight?</h2>
+                <a href="question.html"><h2 class="question-title">Will insulin make my patient gain weight?</h2></a>
                 <hr class="hr-gray">
                 <span class="asked caps-header-small">asked</span>
                 <div class="asked circle-gray"></div>
@@ -45,6 +44,96 @@
  
         </section>
 
+        <div id="profile" title="Profile">
+                <header class="page-header-profile">
+                <button class="close-button" alt="close"><img src="img/close-button.png" class="close-button-image"></button>
+                    <img src="img/woman2.jpg" class="profile-photo" alt="photo"/>
+                    <h1 class="profile-name">Dr Halima</h1>
+                    
+                    <section class="profile-informations-section">
+                        <h1 class="profile-information-header">Profile informations</h1>
+                        <h2 class="caps-header">member for</h2>
+                        <h3 class="description">5 months</h3>
+                        <h2 class="caps-header">last seen</h2>
+                        <h3 class="description">Saturday afternoon</h3>
+                        <h2 class="caps-header">activity level</h2>
+                        <img src="img/gold.png" class="activity-photo" alt="activity"/>          
+                        <img src="img/gold.png" class="activity-photo" alt="activity"/>          
+                        <img src="img/silver.png" class="activity-photo" alt="activity"/>          
+                        <hr>
+                    </section>         
+                </header>
+
+                <section class="how-it-started-section">
+                    
+                    <h1 class="how-it-started-header">How it all started</h1>
+                    <h2 class="caps-header">that's where we have been these 5 months ago</h2>
+
+                    <div class="rectangles">
+                        
+                        <div class="rec1">
+                            <p class="rectangle-text-left"> <span>46</span> <br> peers</p>
+                            <div class="rectangle-shape-1"></div>
+                        </div>
+                        
+                        <div class="rec2">
+                            <p class="rectangle-text-right"> <span>29</span> <br> discussions</p>
+                            <div class="rectangle-shape-2"></div>
+                        </div>
+                        <div class="rec3">
+                            <p class="rectangle-text-left"> <span>19</span> <br> findings</p>
+                            <div class="rectangle-shape-3"></div>
+                        </div>
+                        <div class="rec4">
+                             <p class="rectangle-text-right"> <span>10</span> <br> questions</p>
+                            <div class="rectangle-shape-4"></div>
+                        </div>    
+                    </div>
+                </section>
+                
+                <section class="joined-section">
+                    <h1 class="caps-header">who joined the platform that same period</h1> 
+                    <div class="forms">
+                        <form class="joined-form">
+                            <div class="background-photo">
+                                <img src="img/man1.jpg" class="photo-circle"/>
+                            </div>                    
+                            <figcaption>S.E.N. Waweru</figcaption>
+                        </form>
+                        <form class="joined-form">
+                            <div class="background-photo">
+                                <img src="img/woman1.jpg" class="photo-circle"/>
+                            </div>
+                            <figcaption>Patricia</figcaption>
+                        </form>
+                        <form class="joined-form">
+                            <div class="background-photo">
+                                <img src="img/man2.jpg" class="photo-circle"/>
+                            </div>                    
+                            <figcaption>Joseph Aluoch</figcaption>
+                        </form>
+                    </div>
+                    
+                </section>
+                
+                <section class="hottest-discussion-section">
+                        <h1 class="caps-header">the hottest discussion these days</h1>     
+                        <img src="img/man3.jpg" class="photo-circle">
+                        <div class="discussion-background">
+                            <p class="caps-header-small"><span class="span-blue">Andrew</span> found the guardian article</p>
+                            <h2 class="hottest-topic">Vegan diet to stop diabetes progress</h2>
+                            <div class="hottest-discussion-informations">
+                                <p class="hottest-info"><span>3</span> related discussions</p>
+                                <p class="hottest-info"><span>3</span> conversations</p>
+                                <p class="hottest-info"><span>6</span> peers involved</p>
+                                <p class="hottest-info"><span>19</span> upvotes</p>
+                            </div>
+                        </div>
+                    
+                </section>
+
+        </div>
+        
         <footer class="footer">
         </footer>
         <script src="script.js"></script>

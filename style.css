@@ -14,6 +14,10 @@ body {
     line-height: 1.8rem;
 }
 
+#profile {
+	background: white;
+}
+
 .page-header-profile {
 	text-align: center;
     margin-top: 21px;
@@ -554,7 +558,7 @@ hr.hr-white {
 }
 
 .question-story-section .question-title {
-        margin-left: 85px;
+        margin-left: 83px;
         text-align: left;
     position: relative;
     top: -40px;
@@ -658,6 +662,10 @@ hr.hr-white {
         display: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 @media screen and (min-width: 40em) {
 
@@ -718,7 +726,7 @@ hr.hr-white {
         padding: 15px 20px;
     }
     
-    .question-title {
+    .question-story-section .question-title {
         margin-left: 100px;
         text-align: left;
         font-size: 2.2rem;
@@ -946,7 +954,20 @@ hr.hr-white {
         margin: 0 auto;
     }
     
+        .question-story-section .question {
+        height: 297px;
+    }
+        .circle-gray {
+        top: 105px;
+}
+    .circle-black {
+        top: -32px;
+}
     
+        .question-story-section .question-title {
+        margin-left: 103px;
+
+    }
     
 }
 
