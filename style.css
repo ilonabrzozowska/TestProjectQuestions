@@ -244,7 +244,7 @@ span {
 }
 
 .hottest-info {
-	width: 45%;
+	width: 47%;
     display: inline-block;
     font-style: oblique;
     font-size: 1.4rem;
@@ -660,11 +660,20 @@ hr.hr-white {
 
    .question .hr-gray {
         display: none;
-}
+    }
 
-a {
-    text-decoration: none;
-}
+    a {
+        text-decoration: none;
+    }
+
+    .ui-grey-overlay {
+      background: black !important;
+      opacity: .70 !important;
+    }
+
+    #profile {
+        padding: 0;
+    }
 
 
 @media screen and (min-width: 40em) {
@@ -970,4 +979,3 @@ a {
     }
     
 }
-
